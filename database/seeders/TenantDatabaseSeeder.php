@@ -17,8 +17,8 @@ class TenantDatabaseSeeder extends Seeder
             [
                 'id' => 1,
                 'tenant_id' => 1,
-                'db_name' => 'muhuri_web',
-                'db_username' => 'muhuri_web_user',
+                'db_name' => 'admin_muhuri_web',
+                'db_username' => 'admin_muhuri_web_user',
                 'db_password' => 'Admin123@',
                 'db_host' => env('DB_HOST', '127.0.0.1'),
                 'db_port' => '3306',
